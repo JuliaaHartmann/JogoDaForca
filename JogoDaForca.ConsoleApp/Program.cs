@@ -158,9 +158,13 @@ class Program
 
     static void DesenharForca(int quantidadeErros)
     {      
+        Console.Clear();
+        Console.WriteLine("---------------------------------");
+        Console.WriteLine("Jogo da Forca");
+        Console.WriteLine("---------------------------------");
+
         if (quantidadeErros == 0)
         {
-            Console.Clear();
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
             Console.WriteLine(@" |                  ");
@@ -172,7 +176,6 @@ class Program
         }
         else if (quantidadeErros == 1)
         {
-            Console.Clear();
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
             Console.WriteLine(@" |         o        ");
@@ -184,7 +187,6 @@ class Program
         }
         else if (quantidadeErros == 2)
         {
-            Console.Clear();
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
             Console.WriteLine(@" |         o        ");
@@ -196,7 +198,6 @@ class Program
         }
         else if (quantidadeErros == 3)
         {
-            Console.Clear();
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
             Console.WriteLine(@" |         o        ");
@@ -208,7 +209,6 @@ class Program
         }
         else if (quantidadeErros == 4)
         {
-            Console.Clear();
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
             Console.WriteLine(@" |         o        ");
@@ -220,7 +220,6 @@ class Program
         }
         else if (quantidadeErros == 5)
         {
-            Console.Clear();
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
             Console.WriteLine(@" |         o        ");
